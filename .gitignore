@@ -4,3 +4,68 @@ apm_modules/
 **/AGENTS.md
 AGENTS.md
 .apm
+
+# .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.docstates
+*.nupkg
+*.snupkg
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+
+# User-specific files
+*.userprefs
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User secrets and local configuration
+secrets.json
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio cache/options directory
+.vs/
+
+# Azurite
+__blobstorage__/
+__queuestorage__/
+__azurite_db*__.json
+
+# Aspire
+.aspire/
